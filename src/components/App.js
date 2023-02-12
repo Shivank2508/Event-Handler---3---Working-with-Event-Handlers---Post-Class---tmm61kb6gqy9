@@ -2,10 +2,11 @@ import React, { useState } from 'react'
 import '../styles/App.css';
 const App = () => {
   const [name, setName] = useState("o");
-  const [number, setNumber] = useState(0)
+  // const [number, setNumber] = useState(0)
   const handleInput = (event) => {
     // use console.log
-    console.log(event.target.value)
+    setName(event.target.value);
+    console.log(name);
 
 
   }
@@ -19,8 +20,8 @@ const App = () => {
       <br />
       <br />
 
-      <label htmlFor='num-input'>Number input</label>
-      <input id="num-input" type={'number'} value={number} onChange={handleInput} />
+      {/* <label htmlFor='num-input'>Number input</label>
+      <input id="num-input" type={'number'} value={number} onChange={handleInput} /> */}
       <br />
     </div>
   )
