@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../styles/App.css';
 const App = () => {
-  const [name, setName] = useState("o");
+  const [name, setName] = useState("");
   // const [number, setNumber] = useState(0)
   const handleInput = (event) => {
     // use console.log
