@@ -21,7 +21,7 @@ const App = () => {
     console.log(`Input in #text-input is ${name}`)
   }, [name])
   useEffect(() => {
-    console.log(number)
+    console.log(`Input in #num-input is ${number}`)
   }, [number])
 
   // do not change id of input elements
