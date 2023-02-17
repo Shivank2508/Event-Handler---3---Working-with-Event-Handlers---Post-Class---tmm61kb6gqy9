@@ -18,7 +18,7 @@ const App = () => {
 
   }
   useEffect(() => {
-    console.log(name)
+    console.log(`Input in #text-input ${name}`)
   }, [name])
   useEffect(() => {
     console.log(number)
